@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> LC Fitness Tracker</title>
+  <link rel="stylesheet" type="text/css" href="h.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fitness Tracker</h1>
+    <div class="tracker">
+      <h2>Workout Tracker</h2>
+      <label for="workout">Enter your workout:</label>
+      <input type="text" id="workout">
+      <button onclick="addWorkout()">Add Workout</button>
+      <label for="days">Select a day:</label>
+      <select id="days"></select>
+      <button onclick="addDay()">Add Day</button>
+      <ul id="workoutList"></ul>
+    </div>
+    <div id="reminder"></div>
+  </div>
+  <script src="h.js"></script>
+</body>
+</html>
